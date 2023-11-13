@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="style.css">
+  <title>Meu Portifólio</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <a class="header-title" href="/">
+      <h1>
+        Wendell Brito
+      </h1>
+    </a>
+
+
+    <nav class="navbar">
+      <button class="menu-hamburguer"></button>
+
+      <ul class="navbar-links">
+        <li><a href="#person">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contacts">Contatos</a></li>
+      </ul>
+    </nav>
+
+  </section>
+  <!-- End Header -->
+
+  <!-- Person -->
+  <section id="person">
+    <div class="person-content">
+      <div class="person-name">
+        <h1>Bem vindo, <span></span></h1>
+        <h1>Meu nome é <span></span></h1>
+        <h1>Wendell Brito <span></span></h1>
+      </div>
+
+      <div class="stacks-content">
+        <h3>Techs :</h3>
+
+
+        <ul class="stacks">
+          <li>
+            <div data="HTML">
+                <img src="svg/html.svg" alt="html-icon">
+            </div>
+          </li>
+
+          <li>
+            <div data="CSS">
+              <img src="/svg/css.svg" alt="css-icon">
+            </div>
+          </li>
+
+          <li>
+            <div data="JS">
+              <img src="/svg/js.svg" alt="js-icon">
+            </div>
+          </li>
+
+          <li>
+            <div data="PYTHON">
+              <img src="/svg/pngwing.com.png" alt="react-icon">
+            </div>
+          </li>
+
+          <li>
+            <div data="SQL">
+              <img src="/svg/sql.png" alt="node-icon">
+            </div>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+
+    <div class="person-background">
+      <div class="wrapper-profile-photo">
+        <img class="profile-photo" src="/svg/foto-pronta.jpg" alt="">
+      </div>
+
+      <div class="links">
+        <a href="https://github.com/Britowiski" target="_blank">
+          <img src="./svg/logo-github.svg" alt="icon-github">
+        </a>
+
+        <a href="https://www.instagram.com/wendell.briito/" target="_blank">
+          <img src="./svg/logo-insta.svg" alt="icon-insta">
+        </a>
+        
+        <a href="https://www.linkedin.com/in/wendell-brito-652321141/" target="_blank">
+          <img src="./svg/logo-linkedin.svg" alt="icon-linkin">
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- End Person -->
+
+  <!-- About -->
+  <section id="about">
+    <div class="background-about">
+      <div class="img-wrapper">
+        <img src="/img/coding2.jpg" alt="coding-img">
+      </div>
+    </div>
+
+    <div class="box-about">
+      <div class="section-subtitle">
+        <h2>
+          <p>💻</p>
+          <p><span>Estudante</span> De T.i</p>
+        </h2>
+      </div>
+
+      <h3>
+        Sou um estudante de ADS, tenho conhecimentos em
+                <p>HTML, CSS, JAVASCRIPT, PYTHON BANCO DE DADOS (SQL)</p>
+      </h3>
+
+      <h4>
+                 Meu nome é Wendell, tenho 25 anos, sou estudante de analise e desenvolvimento de sistema.
+                Estou estudando algumas linguagens de programação e tenho conhecimentos em linguagens de marcação e
+                estilização, assim como também conheço banco de dados.
+                Estou em busca de uma vaga de estágio onde eu consiga me desenvolver e aprimorar meus conhecimentos.
+      </h4>
+
+      <h4>
+        Abaixo está o meu <p>currículo</p> para download.
+      </h4>
+
+      <div class="button-cta">
+        <a href="public/document/Curriculo Wendell.pdf" download="Curriculo-Wendell" aria-label="Baixar curriculo Wendell Brito">
+          Currículo
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- End about -->
+  <section id="projects">
+    <div class="projects-title">
+      <h2>PROJETOS</h2>
+    </div>
+
+    <div class="container-projects">
+      <div class="swiper mySwiper">
+        <!-- wrapper-projects -->
+
+        <div class="swiper-wrapper">
+
+          <!-- content-project -->
+          <div class="swiper-slide card-project">
+            <div class="image-project">
+              <a href="/">
+                <img src="/svg/foto2.png" alt="ECOMMERCE">
+              </a>
+            </div>
+
+            <span>ECommerce LowCost</span>
+
+            <p>Esse foi um projeto desenvolvido para escola, como tarefa final de trabalho.</p>
+
+            <div class="cta-project">
+              <a href="https://github.com/Britowiski/ecommerce" target="_blank">
+                Código
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://ecommerce-low-cost.netlify.app/" target="_blank">
+                Site
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div> 
+          </div>
+
+          <div class="swiper-slide card-project">
+            <div class="image-project">
+              <a href="/">
+                <img src="/svg/foto-projeto-escola.png" alt="Projeto-escola">
+              </a>
+            </div>
+
+            <span>Explorando o Mundo tecnológico</span>
+            <p>Esse foi um projeto desenvolvido para escola, como uma tarefa de nos ensinar a trazer videos do youtube e torna-los responsivos.
+              (Obs: infelizmente perdi o código desse site pois o ssd deu problema e perdi tudo)
+            </p>
+
+            <div class="cta-project">
+              
+              <a href="https://projeto-individual-10-10-respon.netlify.app/" target="_blank">
+                Site
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="swiper-slide card-project">
+            <div class="image-project">
+              <a href="/">
+                <img src="/svg/lista-de-tarefas.png" alt="lista-de-tarefas">
+              </a>
+            </div>
+
+            <span>Lista de Tarefas</span>
+                <p>Esse foi um site em forma de lista de tarefas que desenvolvi conforme estava aprendendo a utilizar JavaScript. Ele armazena dados no cache do browser, você consegue adicionar e excluir tarefas.
+
+                  (Obs: infelizmente perdi o código desse site pois o ssd deu problema e perdi tudo)
+                </p>
+
+            <div class="cta-project">
+              
+              <a href="https://listinhas-de-tarefas.netlify.app/" target="_blank">
+                Site
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          
+          <div class="swiper-slide card-project">
+            <div class="image-project">
+              <a href="/">
+                <img src="/svg/tecinformatica.png" alt="tecinformatica">
+              </a>
+            </div>
+
+            <span>Tec Informatica</span>
+
+            <p>Esse foi meu primeiro site/blog desenvolvido com o objetivo de ser um meio informativo na área de informatica</p>
+
+            <div class="cta-project">
+              
+              <a href="https://tec-blog-informatica.netlify.app/" target="_blank">
+                Site
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+
+          
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+
+
+
+      </div>
+    </div>
+
+
+  </section>
+
+  <section id="contacts">
+    <div class="contact-icon-content">
+      <h2>Contato</h2>
+    </div>
+
+
+
+      <div class="contact-icon-content">
+        <div class="contact-icon">
+          <i class="fa-solid fa-envelope-open-text"></i>
+        </div>
+        <div class="contact-info">
+          <span>E-mail</span>
+          <a href="mailto:wendell.brito789@gmail.com">
+            wendell.brito789@gmail.com
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <script src="scripts.js"></script>
+
+</body>
+
+</html>
